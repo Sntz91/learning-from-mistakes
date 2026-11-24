@@ -1,0 +1,80 @@
+{
+  "queue_slices": {
+    "all": 45546,
+    "positive": 11895,
+    "negative": 33651
+  },
+  "diagnostic_errors": {
+    "all": 5517,
+    "fp": 4524,
+    "fn": 993
+  },
+  "decision_distance": {
+    "all": {
+      "failure_auroc": 0.912,
+      "failure_auprc": 0.633,
+      "error_detection_at_20pct": 0.463
+    },
+    "fp_queue": {
+      "failure_auroc": 0.88,
+      "failure_auprc": 0.777,
+      "error_detection_at_20pct": 0.432
+    },
+    "fn_queue": {
+      "failure_auroc": 0.808,
+      "failure_auprc": 0.103,
+      "error_detection_at_20pct": 0.607
+    }
+  },
+  "visual_monitor": {
+    "all": {
+      "failure_auroc": 0.927,
+      "failure_auprc": 0.657,
+      "error_detection_at_20pct": 0.535
+    },
+    "fp_queue": {
+      "failure_auroc": 0.918,
+      "failure_auprc": 0.869,
+      "error_detection_at_20pct": 0.472
+    },
+    "fn_queue": {
+      "failure_auroc": 0.903,
+      "failure_auprc": 0.349,
+      "error_detection_at_20pct": 0.821
+    }
+  },
+  "second_opinion": {
+    "all": {
+      "failure_auroc": 0.957,
+      "failure_auprc": 0.816,
+      "error_detection_at_20pct": 0.549
+    },
+    "fp_queue": {
+      "failure_auroc": 0.925,
+      "failure_auprc": 0.884,
+      "error_detection_at_20pct": 0.485
+    },
+    "fn_queue": {
+      "failure_auroc": 0.91,
+      "failure_auprc": 0.371,
+      "error_detection_at_20pct": 0.839
+    }
+  },
+  "upperbound": {
+    "all": {
+      "failure_auroc": 1.0,
+      "failure_auprc": 1.0,
+      "error_detection_at_20pct": 0.611
+    },
+    "fp_queue": {
+      "failure_auroc": 1.0,
+      "failure_auprc": 1.0,
+      "error_detection_at_20pct": 0.526
+    },
+    "fn_queue": {
+      "failure_auroc": 1.0,
+      "failure_auprc": 1.0,
+      "error_detection_at_20pct": 1.0
+    }
+  }
+}

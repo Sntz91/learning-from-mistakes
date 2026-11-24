@@ -1,0 +1,9 @@
+/data/*/
+/runs/*
+!/runs/paper/
+/runs/paper/*/best_model.pt
+/results/*
+!/results/paper/
+__pycache__/
+*.pyc
+*.sh

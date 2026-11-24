@@ -1,0 +1,36 @@
+{
+  "slice": {
+    "samples": 45546,
+    "positive": 8364,
+    "negative": 37182,
+    "auroc": 0.953,
+    "auprc": 0.87,
+    "ada_ece": 0.032,
+    "brier_skill_score": 0.615,
+    "threshold": 0.056,
+    "sensitivity": 0.881,
+    "specificity": 0.878,
+    "failure_rate": 0.121,
+    "tp": 7371,
+    "fp": 4524,
+    "tn": 32658,
+    "fn": 993
+  },
+  "scan": {
+    "samples": 1340,
+    "positive": 693,
+    "negative": 647,
+    "auroc": 0.962,
+    "auprc": 0.97,
+    "ada_ece": 0.028,
+    "brier_skill_score": 0.732,
+    "threshold": 0.494,
+    "sensitivity": 0.877,
+    "specificity": 0.947,
+    "failure_rate": 0.089,
+    "tp": 608,
+    "fp": 34,
+    "tn": 613,
+    "fn": 85
+  }
+}
